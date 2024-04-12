@@ -372,6 +372,7 @@ main{
     padding: 10px 20px;
     background-color: #51008792;
     margin-right: 10px;
+    position: relative;
 }
 .content-main-title{
     /* padding: 5px; */
@@ -391,6 +392,22 @@ main{
     margin-right: 10px;
 }
 
+.content2-lines {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+}
+.content2-lines div{
+    display: inline-block;
+    border: 1px solid #eed973;
+    width: 70px;
+    height: 1px;
+    margin: 10px 5px;
+    /* height: 10px; */
+    /* position: absolute; */
+
+}
 .special-cat-2content-p{
     margin-top: 20px;
     font-size: 18px;
